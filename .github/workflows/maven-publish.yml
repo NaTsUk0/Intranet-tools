@@ -18,6 +18,7 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'  # 使用Java 11版本，你可以根据项目的要求选择不同的版本
+        distribution: 'temurin'
 
     - name: Build project  # 步骤3：构建项目
       run: |
